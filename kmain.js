@@ -524,6 +524,61 @@ var marker = new maplibregl.Marker().setLngLat([139.7065291763793,35.67675377002
   
   var marker = new maplibregl.Marker().setLngLat([139.7065291763793,35.67675377002328]).setPopup(popup).addTo(map);
 
+var marker = new maplibregl.Marker().setLngLat([136.87815724282714,35.16999670221068]).addTo(map);
+  var popup = new maplibregl.Popup({
+    offset: 25, // ポップアップの位置
+    closeButton: false, // 閉じるボタンの表示
+  }).setText('雷杏　名駅店');
+  
+  var marker = new maplibregl.Marker().setLngLat([136.87815724282714,35.16999670221068]).setPopup(popup).addTo(map);
+
+
+  var marker = new maplibregl.Marker().setLngLat([139.76440062503227,35.67093267498837]).addTo(map);
+  var popup = new maplibregl.Popup({
+    offset: 25, // ポップアップの位置
+    closeButton: false, // 閉じるボタンの表示
+  }).setText('にくTATSU　銀座店');
+  
+  var marker = new maplibregl.Marker().setLngLat([139.76440062503227,35.67093267498837]).setPopup(popup).addTo(map);
+
+
+  var marker = new maplibregl.Marker().setLngLat([139.6998787453555,35.68240821022202]).addTo(map);
+  var popup = new maplibregl.Popup({
+    offset: 25, // ポップアップの位置
+    closeButton: false, // 閉じるボタンの表示
+  }).setText('おひつ膳　田んぼ　代々木本店');
+  
+  var marker = new maplibregl.Marker().setLngLat([139.6998787453555,35.68240821022202]).setPopup(popup).addTo(map);
+
+
+
+  var marker = new maplibregl.Marker().setLngLat([139.68589190393877,35.650225054401375]).addTo(map);
+  var popup = new maplibregl.Popup({
+    offset: 25, // ポップアップの位置
+    closeButton: false, // 閉じるボタンの表示
+  }).setText('ブランエノワール');
+  
+  var marker = new maplibregl.Marker().setLngLat([139.68589190393877,35.650225054401375]).setPopup(popup).addTo(map);
+
+
+  var marker = new maplibregl.Marker().setLngLat([139.70867359287186,35.647313282691854]).addTo(map);
+  var popup = new maplibregl.Popup({
+    offset: 25, // ポップアップの位置
+    closeButton: false, // 閉じるボタンの表示
+  }).setText('カレーうどん千吉　恵比寿店');
+  
+  var marker = new maplibregl.Marker().setLngLat([139.70867359287186,35.647313282691854]).setPopup(popup).addTo(map);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
